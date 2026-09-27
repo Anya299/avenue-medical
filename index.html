@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avenue Medical — Advanced care. Thoughtfully delivered.</title>
+<meta name="description" content="Avenue Medical is a multi-specialty healthcare institution offering coordinated, human-centered care across 20+ specialties.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,340;9..144,440;9..144,560&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="logo" aria-label="Avenue Medical, home">
+      <span>Avenue</span><span>Medical</span>
+    </a>
+
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#care" data-nav>Care</a></li>
+        <li><a href="#specialties" data-nav>Specialties</a></li>
+        <li><a href="#doctors" data-nav>Doctors</a></li>
+        <li><a href="#about" data-nav>About</a></li>
+        <li><a href="#insights" data-nav>Insights</a></li>
+        <li><a href="#contact" data-nav>Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#appointment" class="btn btn-primary btn-small">Book Appointment</a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <nav aria-label="Mobile">
+    <ol>
+      <li style="--i:0"><a href="#care" data-nav>Care</a></li>
+      <li style="--i:1"><a href="#specialties" data-nav>Specialties</a></li>
+      <li style="--i:2"><a href="#doctors" data-nav>Doctors</a></li>
+      <li style="--i:3"><a href="#about" data-nav>About</a></li>
+      <li style="--i:4"><a href="#insights" data-nav>Insights</a></li>
+      <li style="--i:5"><a href="#contact" data-nav>Contact</a></li>
+    </ol>
+  </nav>
+  <a href="#appointment" class="btn btn-primary" data-nav>Book Appointment</a>
+</div>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="top">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow-plain">Multi-specialty care</p>
+        <h1 class="hero-headline">
+          Healthcare,<br>with more<br><em>humanity.</em>
+        </h1>
+        <p class="hero-sub">Advanced medical expertise, thoughtful technology and coordinated care — designed around every patient.</p>
+        <div class="hero-actions">
+          <a href="#appointment" class="btn btn-primary">Book an Appointment</a>
+          <a href="#care" class="btn btn-ghost">Explore Care</a>
+        </div>
+        <div class="trust-chip">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          24/7 Emergency Care
+        </div>
+      </div>
+
+      <div class="hero-visual" id="heroVisual">
+        <div class="visual-frame" id="visualFrame">
+          <div class="hero-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1000&q=85"
+              alt="Doctor in a modern medical setting"
+              class="hero-medical-image"
+            >
+
+            <div class="hero-image-overlay">
+              <span>ADVANCED CARE</span>
+              <span>01 / 06</span>
+            </div>
+
+            <div class="hero-image-orbit"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ================= TRUST STRIP ================= -->
+  <section class="trust-strip" aria-label="Avenue Medical at a glance">
+    <div class="trust-strip-inner">
+      <div class="trust-item">
+        <span class="trust-number" data-count="20" data-suffix="+">0</span>
+        <span class="trust-label">Specialties</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-number" data-count="150" data-suffix="+">0</span>
+        <span class="trust-label">Medical professionals</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-number" data-count="24" data-suffix="/7">0</span>
+        <span class="trust-label">Patient support</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-number" data-count="1">0</span>
+        <span class="trust-label">Coordinated care experience</span>
+      </div>
+    </div>
+    <p class="trust-note">Demonstration figures — replace with verified institutional data.</p>
+  </section>
+
+  <!-- ================= SPECIALTIES ================= -->
+  <section class="specialties" id="specialties">
+    <div class="section-head">
+      <h2>Where care<br>is focused.</h2>
+      <p>Six specialties, shown here as a demonstration of how Avenue Medical organizes deep expertise around the person, not the procedure.</p>
+    </div>
+
+    <ul class="specialty-index" id="specialtyIndex">
+      <li class="specialty-row" data-img="cardiology">
+        <button class="specialty-trigger" aria-expanded="false">
+          <span class="specialty-num">01</span>
+          <span class="specialty-name">Cardiology</span>
+          <span class="specialty-desc">Heart &amp; vascular care</span>
+          <span class="specialty-arrow" aria-hidden="true">
+            <svg width="34" height="16" viewBox="0 0 34 16" fill="none"><path d="M0 8H32M32 8L25 1M32 8L25 15" stroke="currentColor" stroke-width="1.4"/></svg>
+          </span>
+        </button>
+      </li>
+      <li class="specialty-row" data-img="neurology">
+        <button class="specialty-trigger" aria-expanded="false">
+          <span class="specialty-num">02</span>
+          <span class="specialty-name">Neurology</span>
+          <span class="specialty-desc">Brain, spine &amp; nervous system</span>
+          <span class="specialty-arrow" aria-hidden="true">
+            <svg width="34" height="16" viewBox="0 0 34 16" fill="none"><path d="M0 8H32M32 8L25 1M32 8L25 15" stroke="currentColor" stroke-width="1.4"/></svg>
+          </span>
+        </button>
+      </li>
+      <li class="specialty-row" data-img="orthopaedics">
+        <button class="specialty-trigger" aria-expanded="false">
+          <span class="specialty-num">03</span>
+          <span class="specialty-name">Orthopaedics</span>
+          <span class="specialty-desc">Bones, joints &amp; movement</span>
+          <span class="specialty-arrow" aria-hidden="true">
+            <svg width="34" height="16" viewBox="0 0 34 16" fill="none"><path d="M0 8H32M32 8L25 1M32 8L25 15" stroke="currentColor" stroke-width="1.4"/></svg>
+          </span>
+        </button>
+      </li>
+      <li class="specialty-row" data-img="oncology">
+        <button class="specialty-trigger" aria-expanded="false">
+          <span class="specialty-num">04</span>
+          <span class="specialty-name">Oncology</span>
+          <span class="specialty-desc">Cancer diagnosis &amp; treatment</span>
+          <span class="specialty-arrow" aria-hidden="true">
+            <svg width="34" height="16" viewBox="0 0 34 16" fill="none"><path d="M0 8H32M32 8L25 1M32 8L25 15" stroke="currentColor" stroke-width="1.4"/></svg>
+          </span>
+        </button>
+      </li>
+      <li class="specialty-row" data-img="gastroenterology">
+        <button class="specialty-trigger" aria-expanded="false">
+          <span class="specialty-num">05</span>
+          <span class="specialty-name">Gastroenterology</span>
+          <span class="specialty-desc">Digestive health</span>
+          <span class="specialty-arrow" aria-hidden="true">
+            <svg width="34" height="16" viewBox="0 0 34 16" fill="none"><path d="M0 8H32M32 8L25 1M32 8L25 15" stroke="currentColor" stroke-width="1.4"/></svg>
+          </span>
+        </button>
+      </li>
+      <li class="specialty-row" data-img="womens-health">
+        <button class="specialty-trigger" aria-expanded="false">
+          <span class="specialty-num">06</span>
+          <span class="specialty-name">Women's Health</span>
+          <span class="specialty-desc">Care across every life stage</span>
+          <span class="specialty-arrow" aria-hidden="true">
+            <svg width="34" height="16" viewBox="0 0 34 16" fill="none"><path d="M0 8H32M32 8L25 1M32 8L25 15" stroke="currentColor" stroke-width="1.4"/></svg>
+          </span>
+        </button>
+      </li>
+    </ul>
+
+    <div class="specialty-preview" id="specialtyPreview" aria-hidden="true"></div>
+  </section>
+
+  <!-- ================= PATIENT JOURNEY ================= -->
+  <section class="journey" id="care">
+    <div class="section-head light">
+      <h2>One journey.<br>Every step connected.</h2>
+      <p>A coordinated path from first contact to recovery — each stage informed by the one before it.</p>
+    </div>
+
+    <div class="journey-line" id="journeyLine">
+      <div class="journey-line-track"><div class="journey-line-fill" id="journeyFill"></div></div>
+
+      <ol class="journey-steps">
+        <li class="journey-step">
+          <span class="journey-index">01</span>
+          <h3>Discover</h3>
+          <p>Find the right specialty and specialist for your situation.</p>
+        </li>
+        <li class="journey-step">
+          <span class="journey-index">02</span>
+          <h3>Consult</h3>
+          <p>Meet your care team and talk through your history and goals.</p>
+        </li>
+        <li class="journey-step">
+          <span class="journey-index">03</span>
+          <h3>Diagnose</h3>
+          <p>Coordinated testing and imaging, reviewed by the right specialists.</p>
+        </li>
+        <li class="journey-step">
+          <span class="journey-index">04</span>
+          <h3>Treat</h3>
+          <p>A plan built around you, adjusted as your care progresses.</p>
+        </li>
+        <li class="journey-step">
+          <span class="journey-index">05</span>
+          <h3>Recover</h3>
+          <p>Ongoing support and follow-up, so nothing falls between visits.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= DOCTORS ================= -->
+  <!-- ================= DOCTORS ================= -->
+<section class="doctors" id="doctors">
+  <div class="section-head">
+    <h2>People behind<br>the care.</h2>
+    <p>Illustrative profiles shown for demonstration purposes.</p>
+  </div>
+
+  <div class="doctor-grid">
+
+    <!-- Doctor 01 -->
+    <article class="doctor-card">
+      <div class="doctor-portrait">
+        <img
+          src="https://www.tmh.org/sites/default/files/hg_features/hg_provider/9c9144e409002e120904f5071f12de4c.png"
+          alt="Female physician"
+          loading="lazy"
+        >
+      </div>
+      <h3>Dr. Maya Rao</h3>
+      <p>Cardiology</p>
+    </article>
+
+    <!-- Doctor 02 -->
+    <article class="doctor-card">
+      <div class="doctor-portrait">
+        <img
+          src="https://www.wz-kliniken.de/fileadmin/fachkliniken-wangen/portraits/Neurologie/RS18555_WZ_FKW_Schlomm067.jpg"
+          alt="Male physician"
+          loading="lazy"
+        >
+      </div>
+      <h3>Dr. Daniel Thomas</h3>
+      <p>Neurology</p>
+    </article>
+
+    <!-- Doctor 03 -->
+    <article class="doctor-card">
+      <div class="doctor-portrait">
+        <img
+          src="https://bestdoctorsbangladesh.com/storage/doctors/1772041556-dr-sabrina-rahman-snigdha-khulna.webp"
+          alt="Female physician"
+          loading="lazy"
+        >
+      </div>
+      <h3>Dr. Anika Mehta</h3>
+      <p>Oncology</p>
+    </article>
+
+    <!-- Doctor 04 -->
+    <article class="doctor-card">
+      <div class="doctor-portrait">
+        <img
+          src="https://cdn.prod.website-files.com/675ae815b9e6585f8a1e3e69/682b881aea15f347b7ac30bf_67fceddb82f843a4cb84f25e_250312-111736-04376-anhede.jpeg"
+          alt="Male physician"
+          loading="lazy"
+        >
+      </div>
+      <h3>Dr. Arjun Kapoor</h3>
+      <p>Orthopaedics</p>
+    </article>
+
+  </div>
+</section>
+
+  <!-- ================= TECHNOLOGY ================= -->
+  <section class="technology" id="about">
+    <div class="technology-grid">
+      <div class="technology-copy">
+        <h2>Technology that stays<br>in the background.</h2>
+        <p>Digital tools should make care easier to reach, not harder to understand. At Avenue Medical, that means:</p>
+        <ul class="technology-list">
+          <li><span>Easier appointment discovery</span> — find the right specialist without guesswork.</li>
+          <li><span>Digital records</span> — your history, available to the team that's treating you.</li>
+          <li><span>Coordinated communication</span> — specialists who talk to each other, not just to you.</li>
+          <li><span>Patient access</span> — see your plan and progress whenever you need to.</li>
+        </ul>
+      </div>
+      <div class="technology-visual">
+        <div class="tech-panel">
+
+        <div class="tech-orbit tech-orbit-one"></div>
+        <div class="tech-orbit tech-orbit-two"></div>
+
+        <div class="tech-core">
+           <span class="tech-core-ring"></span>
+           <span class="tech-core-dot"></span>
+        </div>
+
+       <div class="tech-node tech-node-one">
+         <span></span>
+         <small>01</small>
+       </div>
+
+       <div class="tech-node tech-node-two">
+         <span></span>
+         <small>02</small>
+        </div>
+
+       <div class="tech-node tech-node-three">
+         <span></span>
+         <small>03</small>
+       </div>
+
+       <div class="tech-node tech-node-four">
+         <span></span>
+         <small>04</small>
+        </div>
+
+       <div class="tech-line tech-line-one"></div>
+       <div class="tech-line tech-line-two"></div>
+       <div class="tech-line tech-line-three"></div>
+
+       <div class="tech-label tech-label-top">
+         <span>CONNECTED CARE</span>
+         <strong>24 / 7</strong>
+       </div>
+
+       <div class="tech-label tech-label-bottom">
+         <span>PATIENT ACCESS</span>
+         <strong>SECURE</strong>
+       </div>
+
+       <svg
+         class="tech-grid-svg"
+         viewBox="0 0 320 320"
+         aria-hidden="true"
+        >
+         <g id="techGrid"></g>
+        </svg>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ================= INSIGHTS ================= -->
+  <section class="insights" id="insights">
+    <div class="section-head">
+      <h2>Insights.</h2>
+      <p>Notes on preventive care and navigating a specialist system, from the Avenue Medical editorial desk.</p>
+    </div>
+
+    <div class="insights-grid">
+      <article class="insight insight-feature">
+        <span class="insight-meta">Preventive Care</span>
+        <h3>Understanding preventive healthcare</h3>
+        <p>Why the most valuable appointment is often the one you book before anything feels wrong.</p>
+        <a href="#" class="insight-link" data-nav>Read the piece</a>
+      </article>
+      <article class="insight">
+        <span class="insight-meta">Consultations</span>
+        <h3>Questions to ask before a specialist consultation</h3>
+        <p>A short list that helps first visits move faster and go further.</p>
+      </article>
+      <article class="insight">
+        <span class="insight-meta">Everyday Health</span>
+        <h3>Building healthier everyday routines</h3>
+        <p>Small, sustainable changes that compound over a year, not a week.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= APPOINTMENT ================= -->
+  <section class="appointment" id="appointment">
+    <div class="appointment-grid">
+      <div class="appointment-copy">
+        <h2>Request an<br>appointment.</h2>
+        <p>Tell us a little about what you need, and a member of our care coordination team will follow up. This is a demonstration form — no information is transmitted or stored.</p>
+      </div>
+
+      <form class="appointment-form" id="appointmentForm" novalidate>
+        <div class="form-row">
+          <label for="fld-name">Full name</label>
+          <input type="text" id="fld-name" name="name" autocomplete="name" required>
+          <span class="field-error" id="err-name"></span>
+        </div>
+
+        <div class="form-row form-row-half">
+          <div>
+            <label for="fld-phone">Phone</label>
+            <input type="tel" id="fld-phone" name="phone" autocomplete="tel" required>
+            <span class="field-error" id="err-phone"></span>
+          </div>
+          <div>
+            <label for="fld-email">Email</label>
+            <input type="email" id="fld-email" name="email" autocomplete="email" required>
+            <span class="field-error" id="err-email"></span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="fld-specialty">Specialty</label>
+          <select id="fld-specialty" name="specialty" required>
+            <option value="" disabled selected>Select a specialty</option>
+            <option>Cardiology</option>
+            <option>Neurology</option>
+            <option>Orthopaedics</option>
+            <option>Oncology</option>
+            <option>Gastroenterology</option>
+            <option>Women's Health</option>
+          </select>
+          <span class="field-error" id="err-specialty"></span>
+        </div>
+
+        <div class="form-row form-row-half">
+          <div>
+            <label for="fld-date">Preferred date</label>
+            <input type="date" id="fld-date" name="date" required>
+            <span class="field-error" id="err-date"></span>
+          </div>
+          <div>
+            <label for="fld-time">Preferred time</label>
+            <input type="time" id="fld-time" name="time" required>
+            <span class="field-error" id="err-time"></span>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-wide">Request Appointment</button>
+      </form>
+
+      <div class="appointment-success" id="appointmentSuccess" hidden>
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="19" stroke="var(--accent)" stroke-width="1.4"/><path id="checkPath" d="M12 20.5L17 25.5L28 14" stroke="var(--accent)" stroke-width="1.6" fill="none"/></svg>
+        <h3>Request received</h3>
+        <p>This is a demo confirmation. In a live deployment, our team would follow up within one business day.</p>
+        <button class="btn btn-ghost" id="resetForm">Submit another request</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EMERGENCY ================= -->
+  <section class="emergency">
+    <div class="emergency-inner">
+      <div>
+        <h2>Need urgent assistance?</h2>
+        <p>Contact your local emergency service or the appropriate hospital emergency department for urgent medical situations.</p>
+      </div>
+      <a href="#" class="btn btn-outline-light" data-nav>Emergency Information</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer" id="contact">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="logo footer-logo"><span>Avenue</span><span>Medical</span></span>
+      <p>Advanced care. Thoughtfully delivered.</p>
+    </div>
+
+    <nav class="footer-col" aria-label="Care">
+      <h4>Care</h4>
+      <ul>
+        <li><a href="#care" data-nav>Patient Journey</a></li>
+        <li><a href="#appointment" data-nav>Book an Appointment</a></li>
+        <li><a href="#" data-nav>Emergency Information</a></li>
+      </ul>
+    </nav>
+    <nav class="footer-col" aria-label="Specialties">
+      <h4>Specialties</h4>
+      <ul>
+        <li><a href="#specialties" data-nav>Cardiology</a></li>
+        <li><a href="#specialties" data-nav>Neurology</a></li>
+        <li><a href="#specialties" data-nav>Orthopaedics</a></li>
+      </ul>
+    </nav>
+    <nav class="footer-col" aria-label="Company">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#doctors" data-nav>Doctors</a></li>
+        <li><a href="#insights" data-nav>Insights</a></li>
+        <li><a href="#contact" data-nav>Contact</a></li>
+      </ul>
+    </nav>
+    <nav class="footer-col" aria-label="Legal">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#" data-nav>Privacy</a></li>
+        <li><a href="#" data-nav>Terms</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Avenue Medical. Demonstration website — fictional institution.</p>
+    <div class="social-icons">
+      <a href="#" aria-label="Avenue Medical on LinkedIn" data-nav><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.1 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.5h4.5V23H.24V8.5zM8.24 8.5h4.32v1.98h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.4 3 5.4 6.9V23h-4.5v-6.9c0-1.65-.03-3.78-2.3-3.78-2.3 0-2.65 1.8-2.65 3.66V23h-4.5V8.5z"/></svg></a>
+      <a href="#" aria-label="Avenue Medical on Instagram" data-nav><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c2.72 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.16.5.5.9 1.1 1.16 1.77.25.64.42 1.37.47 2.43.05 1.06.06 1.4.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 01-1.16 1.77 4.9 4.9 0 01-1.77 1.16c-.64.25-1.37.42-2.43.47-1.06.05-1.4.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 01-1.77-1.16 4.9 4.9 0 01-1.16-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.72 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.16-1.77A4.9 4.9 0 015.46.52C6.1.27 6.83.1 7.89.05 8.94 0 9.28 0 12 0zm0 5.3A6.7 6.7 0 1012 18.7 6.7 6.7 0 0012 5.3zm0 11.05A4.35 4.35 0 1112 7.65a4.35 4.35 0 010 8.7zm6.96-11.32a1.57 1.57 0 11-3.14 0 1.57 1.57 0 013.14 0z"/></svg></a>
+      <a href="#" aria-label="Avenue Medical on X" data-nav><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7.2l-5.6-6.8L4 22H1l8.1-9.3L1 2h7.3l5.1 6.2L18.9 2zm-1.3 18h2L7.5 4H5.4l12.2 16z"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 13V3M8 3L3 8M8 3L13 8" stroke="currentColor" stroke-width="1.4"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
